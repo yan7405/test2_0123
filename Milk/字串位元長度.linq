@@ -7,11 +7,11 @@ Encoding encoding = Encoding.GetEncoding(950);  //Big5
     Encoding  u8    = Encoding.UTF8;
     Encoding  u16LE = Encoding.Unicode;
     Encoding  u16BE = Encoding.BigEndianUnicode;
-    Encoding  u32   = Encoding.UTF32;
 */
+    Encoding  u32   = Encoding.UTF32;
 byte[] lineStr = encoding.GetBytes(target);
 
-//lineStr.Dump();
+lineStr.Dump();
 
 int iBC  = encoding.GetByteCount( target );
 iBC.Dump();
