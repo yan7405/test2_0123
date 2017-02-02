@@ -1,6 +1,6 @@
 <Query Kind="Statements" />
 
-string target = "停車交易取消-累點返回§170115100109";
+string target = "停車交易取消";
 Encoding encoding = Encoding.GetEncoding(950);  //Big5
 /*
     Encoding  u7    = Encoding.UTF7;
@@ -9,7 +9,7 @@ Encoding encoding = Encoding.GetEncoding(950);  //Big5
     Encoding  u16BE = Encoding.BigEndianUnicode;
     Encoding  u32   = Encoding.UTF32;
 */
-encoding = Encoding.UTF8;
+encoding = Encoding.UTF7;
 byte[] lineStr = encoding.GetBytes(target);
 
 //lineStr.Dump();
