@@ -1,6 +1,6 @@
 <Query Kind="Statements" />
 
-string target = "B                                    8e454ecd244623bd4b1a2b20b6e2c50a5235201701161937460108000464     13995286        10        N0699999ParkPay停車交易取消-累點返回§170115100109        103103";
+string target = "N0699999ParkPay停車交易取消-累點返回§170115100109";
 Encoding encoding = Encoding.GetEncoding(950);  //Big5
 /*
 	Encoding  u7    = Encoding.UTF7;
