@@ -3,12 +3,13 @@
 string target = "N0699999ParkPay停車交易取消-累點返回§170115100109";
 Encoding encoding = Encoding.GetEncoding(950);  //Big5
 /*
-	Encoding  u7    = Encoding.UTF7;
+    Encoding  u7    = Encoding.UTF7;
     Encoding  u8    = Encoding.UTF8;
     Encoding  u16LE = Encoding.Unicode;
     Encoding  u16BE = Encoding.BigEndianUnicode;
     Encoding  u32   = Encoding.UTF32;
 */
+encoding = Encoding.UTF8;
 byte[] lineStr = encoding.GetBytes(target);
 
 //lineStr.Dump();
