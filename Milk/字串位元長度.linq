@@ -1,4 +1,5 @@
 <Query Kind="Statements" />
+//vv223
 //VV123
 string target = "停車交易取消-累點返回§170115100109";
 Encoding encoding = Encoding.GetEncoding(950);  //Big5
